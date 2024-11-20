@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'EmptyDataSet-Swift_Example' do
+  pod 'EmptyDataSet-Swift', :path => '../'
+
+  target 'EmptyDataSet-Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
